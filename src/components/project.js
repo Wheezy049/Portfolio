@@ -101,11 +101,11 @@ const project = [
     href2: 'https://github.com/Wheezy049/Quiz-App',
   },
   {
-    title: 'Dashboard',
-    technologies: 'ReactJs, Tailwind',
-    img: '/dashboard.png',
-    href: 'https://dashboard-woad-one-36.vercel.app/',
-    href2: 'https://github.com/Wheezy049/Dashboard',
+    title: 'Audiophile',
+    technologies: 'HTML/CSS, JavaScript',
+    img: '/audiophile.png',
+    href: 'https://audiophile-wheezy049.vercel.app/',
+    href2: 'https://github.com/Wheezy049/audiophile',
   },
 ];
 
