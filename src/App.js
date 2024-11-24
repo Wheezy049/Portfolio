@@ -1,0 +1,122 @@
+// import AboutMe from "./components/aboutMe";
+// import Header from "./components/header";
+// import Project from "./components/project";
+// import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+
+
+// function App() {
+//   return (
+//     <div className="bg-white text-black dark:bg-black dark:text-white transition duration-500 w-full max-w-[1200px] flex flex-col justify-center m-auto overflow-x-hidden">
+//       <Header />
+//       <div className="flex flex-col m-auto mt-14 w-full max-w-[450px] justify-center items-center text-center">
+//         {/* <h3 className="text-blue-500 font-semibold">Frontend Web Developer</h3> */}
+//         <h1 className="font-bold mb-3 text-5xl">Hi, there! </h1>
+//         <h3 className="font-bold mb-3 text-2xl">I'm Olatoyese Faruq,</h3>
+//         <p>
+//           I developed user friendly solutions 
+//         </p>
+//         <div className="mt-5 flex flex-col md:flex-row gap-4">
+//           <button className="border outline outline-1 px-5 py-2 rounded-full cursor-pointer">Contact Me</button>
+//           <button className="border outline outline-1 px-5 py-2 rounded-full cursor-pointer"><a href="https://drive.google.com/file/d/1vFWjzkHz3l_eW52g0JG7hJ27o4Lstlf0/view">My Resume</a></button>
+//         </div>
+//         <div className="flex mt-5 text-xl w-full justify-center gap-4">
+//             <a href="https://github.com/Wheezy049"><FaGithub /></a>
+//             <FaWhatsapp />
+//             <a href="https://www.linkedin.com/in/faruq-olatoyese-548521249/"><FaLinkedin /></a>
+//             <a href="https://x.com/dev_faruq"><FaTwitter /></a>
+//         </div>
+//       </div>
+//       {/* <AboutMe /> */}
+//       <Project />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+import AboutMe from "./components/aboutMe";
+import ContactForm from "./components/contact";
+import Header from "./components/header";
+import Project from "./components/project";
+import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
+
+
+function App() {
+  return (
+    <div className="bg-white text-black dark:bg-black dark:text-white transition duration-500 w-full overflow-x-hidden">
+      <Header />
+      <div className="flex flex-col items-center text-center mt-20 px-4">
+        {/* Introduction Section */}
+        <h1 className="font-bold text-5xl mb-3">Hi, there!</h1>
+        <h3 className="font-bold text-2xl mb-3">I'm Olatoyese Faruq,</h3>
+        <p className="text-lg mb-5 w-full max-w-[500px]">
+        A Frontend Developer dedicated to creating intuitive and responsive web applications. I develop user-friendly solutions that enhance the user experience.
+        </p>
+
+        {/* Buttons Section */}
+        <div className="flex flex-col md:flex-row gap-4 mb-5">
+          <button className="border border-gray-300 px-5 py-2 rounded-full transition hover:bg-gray-200 dark:hover:bg-gray-800">
+            <a href="#contact">Contact Me</a>
+          </button>
+          <button className="border border-gray-300 px-5 py-2 rounded-full transition hover:bg-gray-200 dark:hover:bg-gray-800">
+            <a
+              href="https://drive.google.com/file/d/1vFWjzkHz3l_eW52g0JG7hJ27o4Lstlf0/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              My Resume
+            </a>
+          </button>
+        </div>
+
+        {/* Social Icons Section */}
+        <div className="flex justify-center gap-6 text-2xl">
+          <a
+            href="https://github.com/Wheezy049"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-500 transition"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://wa.me/09134983159"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-green-500 transition"
+          >
+            <FaWhatsapp />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/faruq-olatoyese-548521249/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-700 transition"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://x.com/dev_faruq"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-500 transition"
+          >
+            <FaTwitter />
+          </a>
+        </div>
+      </div>
+
+      {/* Additional Sections */}
+      {/* Uncomment the AboutMe section if you want to use it */}
+      {/* <AboutMe /> */}
+      <div className="w-full mt-16">
+        <Project />
+      </div>
+      <AboutMe />
+      <ContactForm />
+    </div>
+  );
+}
+
+export default App;
