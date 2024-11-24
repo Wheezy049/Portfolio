@@ -48,7 +48,7 @@ function App() {
       <Header />
       <div className="flex flex-col items-center text-center mt-20 px-4">
         {/* Introduction Section */}
-        <h1 className="font-bold text-5xl mb-3">Hi, there!</h1>
+        <h1 className="font-bold text-5xl mb-3">Hi, there! 👋</h1>
         <h3 className="font-bold text-2xl mb-3">I'm Olatoyese Faruq,</h3>
         <p className="text-lg mb-5 w-full max-w-[500px]">
         A Frontend Developer dedicated to creating intuitive and responsive web applications. I develop user-friendly solutions that enhance the user experience.
