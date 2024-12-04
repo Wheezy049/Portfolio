@@ -76,7 +76,7 @@ const project = [
     title: 'Crown E-commerce',
     technologies: 'Reactjs, Sass, CSS in JS',
     img: '/crown.png',
-    href: 'https://ecommerce-one-rust.vercel.app/',
+    href: 'https://crown-e-commerce.vercel.app/',
     href2: 'https://github.com/Wheezy049/udemy-tutorial',
   },
   {
