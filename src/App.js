@@ -1,42 +1,5 @@
-// import AboutMe from "./components/aboutMe";
-// import Header from "./components/header";
-// import Project from "./components/project";
-// import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa';
-
-
-// function App() {
-//   return (
-//     <div className="bg-white text-black dark:bg-black dark:text-white transition duration-500 w-full max-w-[1200px] flex flex-col justify-center m-auto overflow-x-hidden">
-//       <Header />
-//       <div className="flex flex-col m-auto mt-14 w-full max-w-[450px] justify-center items-center text-center">
-//         {/* <h3 className="text-blue-500 font-semibold">Frontend Web Developer</h3> */}
-//         <h1 className="font-bold mb-3 text-5xl">Hi, there! </h1>
-//         <h3 className="font-bold mb-3 text-2xl">I'm Olatoyese Faruq,</h3>
-//         <p>
-//           I developed user friendly solutions 
-//         </p>
-//         <div className="mt-5 flex flex-col md:flex-row gap-4">
-//           <button className="border outline outline-1 px-5 py-2 rounded-full cursor-pointer">Contact Me</button>
-//           <button className="border outline outline-1 px-5 py-2 rounded-full cursor-pointer"><a href="https://drive.google.com/file/d/1vFWjzkHz3l_eW52g0JG7hJ27o4Lstlf0/view">My Resume</a></button>
-//         </div>
-//         <div className="flex mt-5 text-xl w-full justify-center gap-4">
-//             <a href="https://github.com/Wheezy049"><FaGithub /></a>
-//             <FaWhatsapp />
-//             <a href="https://www.linkedin.com/in/faruq-olatoyese-548521249/"><FaLinkedin /></a>
-//             <a href="https://x.com/dev_faruq"><FaTwitter /></a>
-//         </div>
-//       </div>
-//       {/* <AboutMe /> */}
-//       <Project />
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
 import AboutMe from "./components/aboutMe";
-import ContactForm from "./components/contact";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Project from "./components/project";
 import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
@@ -61,7 +24,7 @@ function App() {
           </button>
           <button className="border border-gray-300 px-5 py-2 rounded-full transition hover:bg-gray-200 dark:hover:bg-gray-800">
             <a
-              href="https://drive.google.com/file/d/1vFWjzkHz3l_eW52g0JG7hJ27o4Lstlf0/view"
+              href="https://drive.google.com/file/d/1k3wotEokz5GxaiDFLRL-RyklKMKdrKV7/view"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -106,15 +69,13 @@ function App() {
           </a>
         </div>
       </div>
-
-      {/* Additional Sections */}
-      {/* Uncomment the AboutMe section if you want to use it */}
-      {/* <AboutMe /> */}
-      <div className="w-full mt-16">
+      <div className="flex justify-center w-full m-auto max-w-[1200px] px-4 md:px-20 my-16">
+        <div>
         <Project />
+        <AboutMe />
+        <Footer />
+        </div>
       </div>
-      <AboutMe />
-      <ContactForm />
     </div>
   );
 }

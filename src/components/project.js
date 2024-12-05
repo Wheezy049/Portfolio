@@ -111,14 +111,11 @@ const project = [
 
 function Project() {
   return (
-    <div className="mt-20 flex flex-col items-start w-full px-4">
-      {/* Title and Subtitle */}
-      <div className="ml-24 mb-8">
+    <div className="flex flex-col">
+      <div className="mb-8 flex flex-col justify-center m-auto sm:m-0 sm:justify-start sm:text-left">
         <h1 className="font-semibold text-2xl mb-2">My Projects</h1>
         <p>These are some of my amazing projects</p>
       </div>
-
-      {/* Card Project */}
       <CardProject item={project} />
     </div>
   );
