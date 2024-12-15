@@ -5,9 +5,9 @@ const Footer = () => {
 
   return (
     <div id='contact' className="flex flex-col md:flex-row items-center justify-center w-full mt-20 mb-10 relative">
-      <div className='bg-[#FAFCFD] shadow-lg shadow-[#7BBAD724] rounded-[61px] px-10 py-6 text-center text-[#000000] mr-10 mb-10 md:mb-0'>
+      <div className='bg-[#FAFCFD] shadow-lg shadow-[#7BBAD724] rounded-[61px] px-10 py-6 text-[#000000] mr-10 mb-10 md:mb-0'>
           <h1 className='text-3xl font-bold text-center mb-4'>Skills</h1>
-          <ul className='list-disc pl-5 text-sm'>
+          <ul className='list-disc text-sm'>
             <li>JavaScript</li>
             <li>TypeScript</li>
             <li>HTML/CSS</li>

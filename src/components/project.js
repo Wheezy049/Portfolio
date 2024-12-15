@@ -1,66 +1,3 @@
-// import React from 'react'
-// import CardProject from './cardProject'
-
-
-// const project = [
-//    {
-//     title: "Fast-food",
-//     technologies: "ReactJs, sass",
-//     img: '/fast-food.png',
-//     href: 'https://fast-food-delta-three.vercel.app/',
-//     href2: 'https://github.com/Wheezy049/fast-food'
-//    },
-//    {
-//     title: "Dashboard",
-//     technologies: "ReactJs, Tailwind",
-//     img: '/dashboard.png',
-//     href: 'https://dashboard-woad-one-36.vercel.app/',
-//     href2: 'https://github.com/Wheezy049/Dashboard'
-//    },
-//    {
-//     title: "Quiz App",
-//     technologies: "HTML/CSS, Javascript",
-//     img: '/quiz.png',
-//     href: 'https://quiz-app-five-kappa.vercel.app/',
-//     href2: 'https://github.com/Wheezy049/Quiz-App'
-//    },
-//    {
-//     title: "Fast-food",
-//     technologies: "ReactJs, sass",
-//     img: '/fast-food.png',
-//     href: 'https://fast-food-delta-three.vercel.app/',
-//     href2: 'https://github.com/Wheezy049/fast-food'
-//    },
-//    {
-//     title: "Dashboard",
-//     technologies: "ReactJs, Tailwind",
-//     img: '/dashboard.png',
-//     href: 'https://dashboard-woad-one-36.vercel.app/',
-//     href2: 'https://github.com/Wheezy049/Dashboard'
-//    },
-//    {
-//     title: "Quiz App",
-//     technologies: "HTML/CSS, Javascript",
-//     img: '/quiz.png',
-//     href: 'https://quiz-app-five-kappa.vercel.app/',
-//     href2: 'https://github.com/Wheezy049/Quiz-App'
-//    },
-// ]
-
-// function Project() {
-//   return (
-//     <div className='mt-20 flex flex-col m-auto w-full'>
-//       <div className='flex flex-col ml-20 w-full'>
-//       <h1 className='font-semibold text-2xl'>My Project</h1>  
-//       <p className=' '>These are some of my amazing project</p> 
-//       </div>
-//       <CardProject item={project}/>
-//     </div>
-//   )
-// }
-
-// export default Project
-
 import React from 'react';
 import CardProject from './cardProject';
 
@@ -80,6 +17,13 @@ const project = [
     href2: 'https://github.com/Wheezy049/udemy-tutorial',
   },
   {
+    title: 'DevLink',
+    technologies: 'NextJs, Typescript, Tailwind',
+    img: '/devlink.png',
+    href: 'https://dev-link-roan.vercel.app/',
+    href2: 'https://github.com/Wheezy049/dev-link',
+  },
+  {
     title: 'Fast-food',
     technologies: 'ReactJs, sass',
     img: '/fast-food.png',
@@ -93,13 +37,13 @@ const project = [
     href: 'https://dashboard-woad-one-36.vercel.app/',
     href2: 'https://github.com/Wheezy049/Dashboard',
   },
-  {
-    title: 'Quiz App',
-    technologies: 'HTML/CSS, Javascript',
-    img: '/quiz.png',
-    href: 'https://quiz-app-five-kappa.vercel.app/',
-    href2: 'https://github.com/Wheezy049/Quiz-App',
-  },
+  // {
+  //   title: 'Quiz App',
+  //   technologies: 'HTML/CSS, Javascript',
+  //   img: '/quiz.png',
+  //   href: 'https://quiz-app-five-kappa.vercel.app/',
+  //   href2: 'https://github.com/Wheezy049/Quiz-App',
+  // },
   {
     title: 'Audiophile',
     technologies: 'HTML/CSS, JavaScript',
