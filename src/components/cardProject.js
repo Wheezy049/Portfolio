@@ -37,6 +37,7 @@ function CardProject({ item }) {
             <div className="flex gap-4">
               <a
                 href={item.href2}
+                target="blank"
                 className="flex items-center gap-2 text-gray-400 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
               >
                 <Github className="w-5 h-5" />
@@ -44,6 +45,7 @@ function CardProject({ item }) {
               </a>
               <a
                 href={item.href}
+                target="blank"
                 className="flex items-center gap-2 text-gray-400 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
               >
                 <ExternalLink className="w-5 h-5" />
