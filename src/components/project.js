@@ -1,20 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CardProject from './cardProject';
 
-const project = [
+const projects = [
   {
-    title: 'Tifi',
-    technologies: 'Nextjs, Typescript, Tailwind',
-    img: '/tifi.png',
-    href: 'https://tifi.tv/',
-    href2: '',
+    title: 'File Converter',
+    technologies: 'NextJs, Typescript, Tailwind',
+    img: '/converter.png',
+    href: 'https://file-converter-one.vercel.app/',
+    href2: 'https://github.com/Wheezy049/FileConverter-FE',
+  },
+  {
+    title: 'AI Podcast Summarizer',
+    technologies: 'NextJs, Typescript, Tailwind',
+    img: '/podcast.png',
+    href: 'https://podcast-ai-summarizer.vercel.app/',
+    href2: 'https://github.com/Wheezy049/Podcast-AI-Summarizer',
+  },
+  {
+    title: 'FlowAI',
+    technologies: 'NextJs, Typescript, Tailwind',
+    img: '/flowAI.png',
+    href: 'https://flow-ai-eight.vercel.app/',
+    href2: 'https://github.com/Wheezy049/flowAI',
   },
   {
     title: 'Crown E-commerce',
-    technologies: 'Reactjs, Sass, CSS in JS',
+    technologies: 'ReactJs, Sass, CSS in JS',
     img: '/crown.png',
     href: 'https://crown-e-commerce.vercel.app/',
     href2: 'https://github.com/Wheezy049/udemy-tutorial',
+  },
+  {
+     title: 'DesignForge',
+    technologies: 'ReactJs,Tailwind',
+    img: '/forge.png',
+    href: 'https://design-forge-mauve.vercel.app/',
+    href2: 'https://github.com/Wheezy049/DesignForge',
   },
   {
     title: 'DevLink',
@@ -68,13 +89,28 @@ const project = [
 ];
 
 function Project() {
+
+ const [showAll, setShowAll] = useState(false);
+
+ const visiblePoject =  showAll ? projects : projects.slice(0, 6)
+
   return (
     <div className="flex flex-col">
       <div className="mb-8 flex flex-col justify-center m-auto sm:m-0 sm:justify-start sm:text-left">
         <h1 className="font-semibold text-2xl mb-2">My Projects</h1>
         <p>These are some of my amazing projects</p>
       </div>
-      <CardProject item={project} />
+      <CardProject item={visiblePoject} />
+      {projects.length > 6 && (
+        <div className="mt-6 flex justify-center">
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition"
+          >
+            {showAll ? 'Show Less' : 'Show More'}
+          </button>
+        </div>
+      )}
     </div>
   );
 }
