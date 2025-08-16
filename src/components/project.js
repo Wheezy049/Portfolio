@@ -3,10 +3,10 @@ import CardProject from './cardProject';
 
 const projects = [
   {
-    title: 'File Converter',
+    title: 'FlexiConvert',
     technologies: 'NextJs, Typescript, Tailwind',
-    img: '/converter.png',
-    href: 'https://file-converter-one.vercel.app/',
+    img: '/flexiconvert.png',
+    href: 'https://flexiconverter.vercel.app/',
     href2: 'https://github.com/Wheezy049/FileConverter-FE',
   },
   {
