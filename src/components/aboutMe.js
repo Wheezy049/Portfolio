@@ -7,19 +7,30 @@ function AboutMe() {
       <div className="flex justify-center items-center w-full max-w-[1200px] m-auto text-center text-[#000000] text-sm md:text-base">
         <div className="bg-[#FAFCFD] w-[90%] mx-auto md:mx-0 md:w-[600px] lg:w-[800px] shadow-lg shadow-[#7BBAD724] rounded-[61px] px-7 md:px-10 py-6">
           <p className="mb-4">
-            Hi, I'm Olatoyese Faruq, a Frontend Developer passionate about crafting seamless and engaging websites and applications.
+            Hi, I'm Olatoyese Faruq, a Software Engineer (Frontend) passionate
+            about building scalable and user-friendly web applications.
           </p>
           <p className="mb-4">
-           I specialize in JavaScript technologies like React.js, Next.js, and TypeScript to build user-friendly, scalable solutions. I focus on performance, accessibility, and mobile-first design to ensure a great user experience.
+            I specialize in JavaScript and TypeScript ecosystems with strong
+            experience in React.js, Next.js, and Tailwind CSS. Recently, I’ve
+            been expanding into backend technologies like Python, FastAPI,
+            Django, and SQL to become a well-rounded Software Engineer.
           </p>
           <p className="mb-4">
-           When I'm not coding, I enjoy exploring new tech trends and watching football. Feel free to explore my work and get in touch for your next project!
+            My focus is on performance, accessibility, and secure solutions —
+            from seamless frontends to reliable APIs and real-time features. I
+            enjoy exploring new technologies, contributing to impactful
+            projects, and continuously improving my craft.
           </p>
-          </div>
+          <p className="mb-4">
+            When I'm not coding, I’m likely exploring tech trends, working on
+            side projects, or watching football. Feel free to check out my work
+            and connect with me for collaborations or new opportunities!
+          </p>
+        </div>
       </div>
     </div>
   );
 }
 
 export default AboutMe;
-
