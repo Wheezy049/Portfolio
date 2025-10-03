@@ -45,6 +45,13 @@ const projects = [
     href2: 'https://github.com/Wheezy049/dev-link',
   },
   {
+    title: 'Deal Management',
+    technologies: 'NextJs, Typescript, Tailwind',
+    img: '/deal.png',
+    href: 'https://vobb-deal-management.vercel.app/',
+    href2: 'https://github.com/Wheezy049/Deal-Management',
+  },
+  {
     title: 'Movie-App',
     technologies: 'ReactJs, Tailwind',
     img: '/movie.png',

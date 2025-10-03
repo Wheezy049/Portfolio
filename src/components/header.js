@@ -43,7 +43,7 @@ function Header() {
         >
             <div className="max-w-[1200px] flex justify-between w-full align-middle mx-auto">
                 {/* Logo */}
-                <h1 className="text-2xl font-bold mb-2 md:mb-0"><a href='/'>Dev_Faruq</a></h1>
+                <h1 className="text-2xl font-bold mb-2 md:mb-0"><a href='/'>DevFaruq</a></h1>
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex items-center justify-center gap-6 mt-2">

@@ -22,6 +22,7 @@ const Footer = () => {
           <li>FastAPI</li>
           <li>Tailwind CSS</li>
           <li>SASS</li>
+          <li>MongoDB</li>
           <li>Supabase</li>
           <li>Git/GitHub</li>
           <li>Figma</li>
